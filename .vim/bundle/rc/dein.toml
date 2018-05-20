@@ -1,0 +1,29 @@
+[[plugins]]
+repo = 'dracula/vim'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+hook_add = '''
+  " neocompleteの設定
+  let g:neocomplete#enable_at_startup = 1
+  " ポップアップメニューで表示される候補の数
+  let g:neocomplete#max_list = 50
+  " キーワードの長さ
+  "let g:neocomplete#max_keyword_
+'''
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+  autocmd VimEnter * execute 'NERDTree'
+'''
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+
