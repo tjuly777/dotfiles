@@ -15,7 +15,8 @@ hook_add = '''
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
-  autocmd VimEnter * execute 'NERDTree'
+  " 【C-e】NERDTreeを起動
+  nnoremap <silent><C-e> :NERDTreeToggle<CR>
 '''
 
 [[plugins]]
@@ -26,4 +27,13 @@ repo = 'Shougo/unite.vim'
 
 [[plugins]]
 repo = 'Shougo/neomru.vim'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+  " ステータスラインのカラースキーム変更
+  let g:lightline = {
+    \ 'colorscheme': 'wombat'
+    \ }
+'''
 
