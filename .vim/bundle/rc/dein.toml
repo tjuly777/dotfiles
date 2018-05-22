@@ -1,7 +1,4 @@
 [[plugins]]
-repo = 'mattn/emmet-vim'
-
-[[plugins]]
 repo = 'dracula/vim'
 
 [[plugins]]
@@ -43,6 +40,10 @@ hook_add = '''
 [[plugins]]
 repo = 'scrooloose/nerdcommenter'
 hook_add = '''
-  filetype = on
+  filetype on
   let g:NERDDefaultAlign='left'
 '''
+
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
