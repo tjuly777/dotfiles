@@ -15,7 +15,7 @@ hook_add = '''
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
-  autocmd VimEnter * execute 'NERDTree'
+"  autocmd VimEnter * execute 'NERDTree'
 '''
 
 [[plugins]]
@@ -27,3 +27,5 @@ repo = 'Shougo/unite.vim'
 [[plugins]]
 repo = 'Shougo/neomru.vim'
 
+[[plugins]]
+repo = 'mattn/emmet-vim'
